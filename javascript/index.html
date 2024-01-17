@@ -2,7 +2,43 @@
 <html>
 <head>
 </head>
-<body>  
-  <script></script>
+<style>
+  :root {
+    color-scheme: dark;
+  }
+  body {
+    background-color: rgb(12, 12, 12);
+  }
+  #image-view {
+    max-height: 320px;
+  }
+  .center {
+    text-align: center
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 120px;
+    gap: 2rem;
+  }
+  .img {
+    height: 135px;
+  }
+</style>
+<body>
+  <section class="center">
+    <img 
+    id="image-view"
+    src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/44/FNC_S01E01_1114.jpg/revision/latest/scale-to-width-down/1000?cb=20231026172526">
+  </section>
+  <section>
+    <div class="flex">
+      <img class="img" src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/44/FNC_S01E01_1114.jpg/revision/latest/scale-to-width-down/1000?cb=20231026172526">
+      <img class="img" src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/b/bb/Jerry_screenshot_fionna_medium_night.jpg/revision/latest/scale-to-width-down/1000?cb=20230924044312">
+      <img class="img" src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/77/FNC_S01E01_1143.jpg/revision/latest/scale-to-width-down/1000?cb=20231026174409">
+    </div>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
